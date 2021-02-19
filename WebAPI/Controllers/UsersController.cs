@@ -13,17 +13,11 @@ namespace WebAPI.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        UsersContext db;
+        ContextDB db;
 
-        public UsersController(UsersContext context)
+        public UsersController(ContextDB context)
         {
             db = context;
-            if (!db.Users.Any())
-            {
-                db.Users.Add(new User { Login = "Tom", Password = 26 });
-                db.Users.Add(new User { Login = "Alice", Password = 31 });
-                db.SaveChanges();
-            }
         }
 
         [HttpGet]

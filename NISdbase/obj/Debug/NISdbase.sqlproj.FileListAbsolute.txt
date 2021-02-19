@@ -1,0 +1,6 @@
+F:\Project\NISOnline\NISOnline\NISdbase\bin\Debug\NISdbase.dacpac
+F:\Project\NISOnline\NISOnline\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
+F:\Project\NISOnline\NISOnline\NISdbase\obj\Debug\NISdbase.dll
+F:\Project\NISOnline\NISOnline\NISdbase\obj\Debug\NISdbase.pdb
+F:\Project\NISOnline\NISOnline\NISdbase\bin\Debug\NISdbase.dll
+F:\Project\NISOnline\NISOnline\NISdbase\bin\Debug\NISdbase.pdb

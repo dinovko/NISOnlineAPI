@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\NISOnline\\NISOnline\\NISOnline\\NISOnline.csproj": {}
+    "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {}
   },
   "projects": {
-    "F:\\Project\\NISOnline\\NISOnline\\NISOnline\\NISOnline.csproj": {
+    "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\NISOnline\\NISOnline\\NISOnline\\NISOnline.csproj",
+        "projectUniqueName": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
         "projectName": "NISOnline",
-        "projectPath": "F:\\Project\\NISOnline\\NISOnline\\NISOnline\\NISOnline.csproj",
+        "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
         "packagesPath": "C:\\Users\\Ravil\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\NISOnline\\NISOnline\\NISOnline\\obj\\",
+        "outputPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

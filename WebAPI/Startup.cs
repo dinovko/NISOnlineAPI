@@ -17,7 +17,7 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             string con = "Server=192.168.10.63;Database=nisBD;User Id=CABDConnection;Password=G3fc7c8xVN;";
-            services.AddDbContext<UsersContext>(options => options.UseSqlServer(con));
+            services.AddDbContext<ContextDB>(options => options.UseSqlServer(con));
 
             services.AddCors();
             services.AddControllers();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hS/WAbQU/A4wAQid2WpYJq022DAnnipIxYLvNmP5alrlJxy9ms8VhClLemf2loX0hOcyz7FG7y6miY7Z6x0eYw==",
+  "dgSpecHash": "VX0LaVx/rmNgoHDGMhVRkk43LypBS6iorqcck46n9kH04i1zvHwROtFVC3U7ReeP1R2oJCt5Pv6miKlo+hrz5A==",
   "success": true,
-  "projectFilePath": "F:\\Project\\NISOnline\\NISOnline\\NISOnline\\NISOnline.csproj",
+  "projectFilePath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ravil\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ravil\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
