@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPI.Models;
+using WebAPI.Models.NSIModel;
 using WebAPI.Models.TableModel;
 
 namespace WebAPI.Controllers
@@ -17,6 +19,18 @@ namespace WebAPI.Controllers
         public QuestionTestController(ContextDB context)
         {
             db = context;
+        }
+
+        [HttpGet("dicTestTypes")]
+        public async Task<ActionResult<IEnumerable<NSITestTypes>>> Get()
+        {
+            return await db.NSITestTypes.ToListAsync();
+        }
+
+        [HttpGet("dicStudySubjectName")]
+        public async Task<ActionResult<IEnumerable<NSIStudySubjectName>>> GetDic()
+        {
+            return await db.NSIStudySubjectName.ToListAsync();
         }
 
         [HttpPost]
