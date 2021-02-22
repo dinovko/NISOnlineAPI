@@ -64,7 +64,8 @@
   <ItemGroup>
     <Build Include="Tables\nsi\NSITestTypes.sql" />
     <Build Include="Tables\nsi\NSIStudySubjectName.sql" />
-    <Build Include="Tables\dbo\StandartTest.sql" />
+    <Build Include="Tables\dbo\QuestionTest.sql" />
+    <Build Include="Tables\dbo\AnswerTest.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />
