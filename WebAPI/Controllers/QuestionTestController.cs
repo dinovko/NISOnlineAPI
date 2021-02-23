@@ -33,35 +33,30 @@ namespace WebAPI.Controllers
             return await db.NSIStudySubjectName.ToListAsync();
         }
 
-        [HttpPost]
-        public async Task<ActionResult<QuestionTest>> Post(QuestionTest stest)
+        [HttpPost("saveQuestionTest")]
+        public async Task<ActionResult<QuestionTest>> Post(QuestionTest test)
         {
-            if (stest == null)
+            if (test == null)
             {
                 return BadRequest();
             }
 
-            db.QuestionTest.Add(stest);
+            db.QuestionTest.Add(test);
             await db.SaveChangesAsync();
-            return Ok(stest);
+            return Ok(test);
         }
 
-        [HttpPut]
-        public async Task<ActionResult<QuestionTest>> Put(QuestionTest stest)
+        [HttpPost("saveInputTest")]
+        public async Task<ActionResult<QuestionTest>> Post(QuestionInputTest test)
         {
-            if (stest == null)
+            if (test == null)
             {
                 return BadRequest();
             }
-            if (!db.QuestionTest.Any(x => x.ID == stest.ID))
-            {
-                return NotFound();
-            }
 
-            db.Update(stest);
+            db.QuestionInputTest.Add(test);
             await db.SaveChangesAsync();
-            return Ok(stest);
+            return Ok(test);
         }
-
     }
 }

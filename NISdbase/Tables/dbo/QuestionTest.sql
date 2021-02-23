@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[QuestionTest]
 (
 	[ID] INT IDENTITY (1, 1) NOT NULL,
-    [QuestionRU] NVARCHAR(MAX) NOT NULL, 
+    [QuestionRU] NVARCHAR(MAX) NULL, 
     [QuestionKZ] NVARCHAR(MAX) NULL, 
     [StudySubjectNameID] INT NOT NULL,
     [TestTypeID] INT NOT NULL, 

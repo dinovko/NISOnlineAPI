@@ -15,6 +15,7 @@ namespace WebAPI.Models
         public DbSet<NSIStudySubjectName> NSIStudySubjectName { get; set; }
         public DbSet<QuestionTest> QuestionTest { get; set; }
         public DbSet<AnswerTest> AnswerTest { get; set; }
+        public DbSet<QuestionInputTest> QuestionInputTest { get; set; }
 
         public ContextDB(DbContextOptions<ContextDB> options)
             : base(options)

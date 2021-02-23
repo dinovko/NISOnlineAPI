@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[AnswerTest]
 (
 	[ID] INT IDENTITY (1, 1) NOT NULL,
-	[AnswerRU] NVARCHAR(250) NOT NULL, 
+	[AnswerRU] NVARCHAR(250) NULL, 
     [AnswerKZ] NVARCHAR(250) NULL, 
     [QuestionTestID] INT NOT NULL, 
     [IsTrue] BIT NOT NULL, 
