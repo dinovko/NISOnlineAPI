@@ -11,7 +11,7 @@ namespace WebAPI.Models
     public class ContextDB : DbContext
     {
         public DbSet<Users> Users { get; set; }
-        //public DbSet<NSITestTypes> NSITestTypes { get; set; }
+        public DbSet<NSITestTypes> NSITestTypes { get; set; }
         //public DbSet<NSIStudySubjectName> NSIStudySubjectName { get; set; }
         //public DbSet<QuestionTest> QuestionTest { get; set; }
         //public DbSet<AnswerTest> AnswerTest { get; set; }
@@ -25,6 +25,7 @@ namespace WebAPI.Models
         public DbSet<SchoolboyUsers> SchoolboyUsers { get; set; }
         public DbSet<NSILanguageLearning> NSILanguageLearning { get; set; }
         public DbSet<NSIClassName> NSIClassName { get; set; }
+        public DbSet<NSISchool> NSISchool { get; set; }
 
 
         public ContextDB(DbContextOptions<ContextDB> options)

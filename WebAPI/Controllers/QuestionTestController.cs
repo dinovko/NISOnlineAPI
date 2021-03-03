@@ -17,19 +17,17 @@ namespace WebAPI.Controllers
     public class QuestionTestController : ControllerBase
     {
         ContextDB db;
-        AutorizationManager man = new AutorizationManager();
 
         public QuestionTestController(ContextDB context)
         {
             db = context;
         }
 
-        //[HttpGet("dicTestTypes")]
-        //public async Task<ActionResult<IEnumerable<NSITestTypes>>> Get()
-        //{
-        //    var  a = man.Test();
-        //    return await db.NSITestTypes.ToListAsync();
-        //}
+        [HttpGet("dicTestTypes")]
+        public async Task<ActionResult<IEnumerable<NSITestTypes>>> Get()
+        {
+            return await db.NSITestTypes.ToListAsync();
+        }
 
         //[HttpGet("dicStudySubjectName")]
         //public async Task<ActionResult<IEnumerable<NSIStudySubjectName>>> GetDic()

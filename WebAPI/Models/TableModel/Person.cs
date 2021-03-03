@@ -19,5 +19,7 @@ namespace WebAPI.Models.TableModel
         public DateTime? BirthDate { get; set; }
 
         public string Email { get; set; }
+
+        public string Foto { get; set; }
     }
 }

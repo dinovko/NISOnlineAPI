@@ -2,14 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WebAPI.Models.BusinessObjects;
 
 namespace NSIManager.Manager
 {
     public class AutorizationManager: ManagerBase
     {
-        public int Test()
-        {
-            return 1;
-        }
+        
     }
 }

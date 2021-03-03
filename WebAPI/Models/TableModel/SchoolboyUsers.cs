@@ -12,6 +12,8 @@ namespace WebAPI.Models.TableModel
 
         public int ClassID { get; set; }
 
-        public int LanguageLearningID { get; set; }
+        public int? LanguageLearningID { get; set; }
+
+        public int? SchoolID { get; set; }
     }
 }
