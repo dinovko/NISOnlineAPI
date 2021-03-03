@@ -27,13 +27,28 @@ namespace WebAPI.Controllers
         [HttpGet("dicClass")]
         public async Task<ActionResult<IEnumerable<NSIClassName>>> GetClass()
         {
-            return await db.NSIClassName.ToListAsync();
+            try
+            {
+                return await db.NSIClassName.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         [HttpGet("dicSchool")]
         public async Task<ActionResult<IEnumerable<NSISchool>>> GetSchool()
         {
-            return await db.NSISchool.ToListAsync();
+            try
+            {
+                return await db.NSISchool.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            
         }
 
         [HttpPost("saveSchoolboyUser")]
@@ -51,7 +66,7 @@ namespace WebAPI.Controllers
             }
             catch (Exception e)
             {
-                throw e;
+                return BadRequest(e.Message);
             }           
         }
     }
