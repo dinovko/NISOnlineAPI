@@ -60,6 +60,7 @@
     <Folder Include="Tables\dbo" />
     <Folder Include="Tables\nsi" />
     <Folder Include="Scripts" />
+    <Folder Include="Migration" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\nsi\NSITestTypes.sql" />

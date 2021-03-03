@@ -21,16 +21,16 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> Get()
+        public async Task<ActionResult<IEnumerable<Users>>> Get()
         {
             return await db.Users.ToListAsync();
         }
 
         // GET api/users/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> Get(int id)
+        public async Task<ActionResult<Users>> Get(int id)
         {
-            User user = await db.Users.FirstOrDefaultAsync(x => x.ID == id);
+            Users user = await db.Users.FirstOrDefaultAsync(x => x.ID == id);
             if (user == null)
                 return NotFound();
             return new ObjectResult(user);
@@ -38,7 +38,7 @@ namespace WebAPI.Controllers
 
         // POST api/users
         [HttpPost]
-        public async Task<ActionResult<User>> Post(User user)
+        public async Task<ActionResult<Users>> Post(Users user)
         {
             if (user == null)
             {
@@ -52,7 +52,7 @@ namespace WebAPI.Controllers
 
         // PUT api/users/
         [HttpPut]
-        public async Task<ActionResult<User>> Put(User user)
+        public async Task<ActionResult<Users>> Put(Users user)
         {
             if (user == null)
             {
@@ -70,9 +70,9 @@ namespace WebAPI.Controllers
 
         // DELETE api/users/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<User>> Delete(int id)
+        public async Task<ActionResult<Users>> Delete(int id)
         {
-            User user = db.Users.FirstOrDefault(x => x.ID == id);
+            Users user = db.Users.FirstOrDefault(x => x.ID == id);
             if (user == null)
             {
                 return NotFound();

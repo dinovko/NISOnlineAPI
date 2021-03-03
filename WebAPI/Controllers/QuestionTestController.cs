@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NSIManager.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,47 +17,50 @@ namespace WebAPI.Controllers
     public class QuestionTestController : ControllerBase
     {
         ContextDB db;
+        AutorizationManager man = new AutorizationManager();
+
         public QuestionTestController(ContextDB context)
         {
             db = context;
         }
 
-        [HttpGet("dicTestTypes")]
-        public async Task<ActionResult<IEnumerable<NSITestTypes>>> Get()
-        {
-            return await db.NSITestTypes.ToListAsync();
-        }
+        //[HttpGet("dicTestTypes")]
+        //public async Task<ActionResult<IEnumerable<NSITestTypes>>> Get()
+        //{
+        //    var  a = man.Test();
+        //    return await db.NSITestTypes.ToListAsync();
+        //}
 
-        [HttpGet("dicStudySubjectName")]
-        public async Task<ActionResult<IEnumerable<NSIStudySubjectName>>> GetDic()
-        {
-            return await db.NSIStudySubjectName.ToListAsync();
-        }
+        //[HttpGet("dicStudySubjectName")]
+        //public async Task<ActionResult<IEnumerable<NSIStudySubjectName>>> GetDic()
+        //{
+        //    return await db.NSIStudySubjectName.ToListAsync();
+        //}
 
-        [HttpPost("saveQuestionTest")]
-        public async Task<ActionResult<QuestionTest>> Post(QuestionTest test)
-        {
-            if (test == null)
-            {
-                return BadRequest();
-            }
+        //[HttpPost("saveQuestionTest")]
+        //public async Task<ActionResult<QuestionTest>> Post(QuestionTest test)
+        //{
+        //    if (test == null)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            db.QuestionTest.Add(test);
-            await db.SaveChangesAsync();
-            return Ok(test);
-        }
+        //    db.QuestionTest.Add(test);
+        //    await db.SaveChangesAsync();
+        //    return Ok(test);
+        //}
 
-        [HttpPost("saveInputTest")]
-        public async Task<ActionResult<QuestionTest>> Post(QuestionInputTest test)
-        {
-            if (test == null)
-            {
-                return BadRequest();
-            }
+        //[HttpPost("saveInputTest")]
+        //public async Task<ActionResult<QuestionTest>> Post(QuestionInputTest test)
+        //{
+        //    if (test == null)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            db.QuestionInputTest.Add(test);
-            await db.SaveChangesAsync();
-            return Ok(test);
-        }
+        //    db.QuestionInputTest.Add(test);
+        //    await db.SaveChangesAsync();
+        //    return Ok(test);
+        //}
     }
 }
