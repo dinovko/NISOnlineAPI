@@ -27,7 +27,7 @@ namespace WebAPI.Models
         public DbSet<NSILanguageLearning> NSILanguageLearning { get; set; }
         public DbSet<NSIClassName> NSIClassName { get; set; }
         public DbSet<NSISchool> NSISchool { get; set; }
-        public DbSet<NSISkillsName> NSISkillsName { get; set; }
+        //public DbSet<NSISkillsName> NSISkillsName { get; set; }
         #endregion
 
         public ContextDB(DbContextOptions<ContextDB> options)
