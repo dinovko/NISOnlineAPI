@@ -22,18 +22,18 @@ namespace WebAPI.Controllers
             db = context;
         }
 
-        //[HttpGet("dicSkills")]
-        //public async Task<ActionResult<IEnumerable<NSISkillsName>>> GetClass()
-        //{
-        //    try
-        //    {
-        //        return await db.NSISkillsName.ToListAsync();
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return BadRequest(e.Message);
-        //    }            
-        //}
+        [HttpGet("dicSkills")]
+        public async Task<ActionResult<IEnumerable<NSISkillsName>>> GetClass()
+        {
+            try
+            {
+                return await db.NSISkillsName.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
 
         [HttpPost("saveCloseTest")]
         public async Task<ActionResult<CloseTest>> Post(CloseTest close)
