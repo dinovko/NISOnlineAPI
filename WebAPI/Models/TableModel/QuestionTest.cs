@@ -16,6 +16,6 @@ namespace WebAPI.Models.TableModel
 
         public int TestTypeID { get; set; }
 
-        public List<AnswerTest> AnswerTestData { get; set; }
+        //public List<AnswerTest> AnswerTestData { get; set; }
     }
 }
