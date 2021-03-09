@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[NSITestTypes]
+﻿CREATE TABLE [dbo].[NSIGlossary]
 (
 	[ID]               INT            IDENTITY (1, 1) NOT NULL,
     [NameRU]           NVARCHAR (250) NOT NULL,
@@ -8,5 +8,5 @@
     [EndDate]          DATETIME       NULL,
     [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     [IsDel] BIT NULL, 
-    CONSTRAINT [PK_NSITestTypes] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
+    CONSTRAINT [PK_NSIGlossary] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
 )

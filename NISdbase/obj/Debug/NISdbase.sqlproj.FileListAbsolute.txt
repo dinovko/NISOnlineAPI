@@ -10,3 +10,7 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.pdb
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\Model.xml
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\refactor.xml
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\postdeploy.sql
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\predeploy.sql

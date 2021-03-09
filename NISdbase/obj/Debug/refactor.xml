@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
-  <Operation Name="Rename Refactor" Key="756f86a6-d2b2-453e-bd5b-79dbde4350e0" ChangeDateTime="02/23/2021 10:49:08">
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="756f86a6-d2b2-453e-bd5b-79dbde4350e0" ChangeDateTime="02/23/2021 10:49:08" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
     <Property Name="ElementName" Value="[dbo].[c].[QuestionRU]" />
     <Property Name="ElementType" Value="SqlSimpleColumn" />
     <Property Name="ParentElementName" Value="[dbo].[c]" />
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="QuestionBeginRU" />
   </Operation>
-  <Operation Name="Rename Refactor" Key="01e9aa92-fd54-429b-aea6-04d4f69687cd" ChangeDateTime="02/23/2021 10:49:16">
+  <Operation Name="Rename Refactor" Key="01e9aa92-fd54-429b-aea6-04d4f69687cd" ChangeDateTime="02/23/2021 10:49:16" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
     <Property Name="ElementName" Value="[dbo].[c].[QuestionKZ]" />
     <Property Name="ElementType" Value="SqlSimpleColumn" />
     <Property Name="ParentElementName" Value="[dbo].[c]" />
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="QuestionEndRU" />
   </Operation>
-  <Operation Name="Rename Refactor" Key="45b54e18-247a-4ba8-8c1c-a7ddd2d6ba46" ChangeDateTime="03/09/2021 08:04:57">
+  <Operation Name="Rename Refactor" Key="45b54e18-247a-4ba8-8c1c-a7ddd2d6ba46" ChangeDateTime="03/09/2021 08:04:57" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
     <Property Name="ElementName" Value="[dbo].[Users].[Id]" />
     <Property Name="ElementType" Value="SqlSimpleColumn" />
     <Property Name="ParentElementName" Value="[dbo].[Users]" />

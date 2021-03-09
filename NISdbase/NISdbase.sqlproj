@@ -63,15 +63,37 @@
     <Folder Include="Migration" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="Tables\dbo\Users.sql" />
+    <Build Include="Tables\nsi\NSIUsersTypes.sql" />
+    <Build Include="Tables\dbo\UserRoles.sql" />
+    <Build Include="Tables\nsi\NSIRoles.sql" />
+    <Build Include="Tables\dbo\RoleRights.sql" />
+    <Build Include="Tables\nsi\NSIRights.sql" />
+    <Build Include="Tables\dbo\Person.sql" />
+    <Build Include="Tables\dbo\SchoolboyUsers.sql" />
+    <Build Include="Tables\nsi\NSIClassName.sql" />
+    <Build Include="Tables\nsi\NSILanguageLearning.sql" />
+    <Build Include="Tables\nsi\NSISchool.sql" />
+    <Build Include="Tables\nsi\NSIStates.sql" />
+    <Build Include="Tables\nsi\NSIGlossary.sql" />
+    <Build Include="Tables\nsi\NSISubjectName.sql" />
+    <Build Include="Tables\nsi\NSISkillsName.sql" />
+    <Build Include="Tables\nsi\NSISectionName.sql" />
+    <Build Include="Tables\nsi\NSIThemeName.sql" />
     <Build Include="Tables\nsi\NSITestTypes.sql" />
-    <Build Include="Tables\nsi\NSIStudySubjectName.sql" />
-    <Build Include="Tables\dbo\QuestionTest.sql" />
-    <Build Include="Tables\dbo\AnswerTest.sql" />
-    <Build Include="Tables\dbo\QuestionInputTest.sql" />
+    <Build Include="Tables\nsi\NSISortTypes.sql" />
+    <Build Include="Tables\dbo\TestData.sql" />
+    <Build Include="Tables\dbo\CloseTest.sql" />
+    <Build Include="Tables\dbo\CloseTestAnswer.sql" />
+    <Build Include="Tables\dbo\FeedbackTest.sql" />
+    <Build Include="Tables\dbo\TestDataTypes.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />
     <None Include="Scripts\AddNSIStudySubjectName.sql" />
+    <None Include="Scripts\AddNSIClassName.sql" />
+    <None Include="Scripts\AddNSISchool.sql" />
+    <None Include="Scripts\AddNSISkillsName.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="NISdbase.refactorlog" />

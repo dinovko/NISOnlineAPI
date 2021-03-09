@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[NSIStudySubjectName]
+﻿CREATE TABLE [dbo].[NSISkillsName]
 (
 	[ID]               INT            IDENTITY (1, 1) NOT NULL,
     [NameRU]           NVARCHAR (250) NOT NULL,
@@ -7,5 +7,6 @@
     [BeginDate]        DATETIME       NOT NULL,
     [EndDate]          DATETIME       NULL,
     [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
-    CONSTRAINT [PK_NSIStudySubjectName] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
+    [IsDel] BIT NULL, 
+    CONSTRAINT [PK_NSISkillsName] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
 )
