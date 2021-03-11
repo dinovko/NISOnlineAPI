@@ -16,10 +16,12 @@ namespace WebAPI.Models.TableModel
 
         public string IIN { get; set; }
 
-        public DateTime? BirthDate { get; set; }
+        //public DateTime? BirthDate { get; set; }
 
         public string Email { get; set; }
 
         public string Foto { get; set; }
+
+        public Users UsersObj { get; set; }
     }
 }

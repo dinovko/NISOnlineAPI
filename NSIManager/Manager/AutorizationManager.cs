@@ -8,6 +8,5 @@ namespace NSIManager.Manager
 {
     public class AutorizationManager: ManagerBase
     {
-        
     }
 }

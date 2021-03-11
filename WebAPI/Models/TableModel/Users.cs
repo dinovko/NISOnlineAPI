@@ -15,8 +15,6 @@ namespace WebAPI.Models
 
         public int? PersonID { get; set; }
 
-        public Person PersonObj { get; set; }
-
         /// <summary>Является ли учеником</summary>
         public bool? IsSchoolboy { get; set; }
 

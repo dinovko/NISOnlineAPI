@@ -4,12 +4,12 @@
     "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NSIManager.csproj": {
+    "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NSIManager.csproj",
-        "projectName": "NSIManager",
-        "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NSIManager.csproj",
+        "projectUniqueName": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
+        "projectName": "NISManager",
+        "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
         "packagesPath": "C:\\Users\\Ravil\\.nuget\\packages\\",
         "outputPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\obj\\",
         "projectStyle": "PackageReference",
@@ -43,6 +43,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -91,8 +95,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NSIManager.csproj": {
-                "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NSIManager.csproj"
+              "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
+                "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj"
               }
             }
           }

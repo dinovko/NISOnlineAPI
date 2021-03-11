@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebAPI.Models;
 using WebAPI.Models.BusinessObjects;
+using WebAPI.Models.HelperModel;
 using WebAPI.Models.NSIModel;
 using WebAPI.Models.TableModel;
 
@@ -52,7 +53,26 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("saveSchoolboyUser")]
-        public async Task<ActionResult<Users>> Post(Users user)
+        public async Task<ActionResult<Person>> Post(Person person)
+        {
+            try
+            {
+                if (person == null)
+                {
+                    return BadRequest();
+                }
+                db.Person.Add(person);
+                await db.SaveChangesAsync();
+                return Ok(person);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }           
+        }
+
+        [HttpPost("ADAutorization")]
+        public IActionResult Post(ADUser user)
         {
             try
             {
@@ -60,14 +80,14 @@ namespace WebAPI.Controllers
                 {
                     return BadRequest();
                 }
-                db.Users.Add(user);
-                await db.SaveChangesAsync();
+                user.IsValid = true;
                 return Ok(user);
             }
             catch (Exception e)
             {
                 return BadRequest(e.Message);
-            }           
+            }
         }
+
     }
 }

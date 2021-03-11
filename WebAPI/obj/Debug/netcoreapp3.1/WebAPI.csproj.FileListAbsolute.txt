@@ -128,8 +128,6 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Mi
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Shell.Interop.8.0.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TextManager.Interop.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\NSIManager.dll
-F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\NSIManager.pdb
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
@@ -143,3 +141,6 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\ru
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Dapper.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\NISManager.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\NISManager.pdb
