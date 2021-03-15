@@ -24,6 +24,6 @@ namespace WebAPI.Models.TableModel
 
         public int? FeedbackTestID { get; set; }
 
-        public CloseTestAnswer CloseTestAnswerObj { get; set; }
+        public List<CloseTestAnswer> CloseTestAnswerObj { get; set; }
     }
 }

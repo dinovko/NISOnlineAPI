@@ -26,6 +26,18 @@ namespace WebAPI.Controllers
             return await db.Users.ToListAsync();
         }
 
+        [HttpGet("get")]
+        public string Get2()
+        {
+            return "asdasdasdas";
+        }
+
+        [HttpPost("post")]
+        public string Post([FromBody] string value)
+        {
+            return value + " " + "asdasdasdas";
+        }
+
         // GET api/users/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Users>> Get(int id)
