@@ -14,7 +14,9 @@ namespace WebAPI.Models.TableModel
 
         public string AnswerKZ { get; set; }
 
-        public string AnswerImage { get; set; }
+        public string AnswerImageRU { get; set; }
+
+        public string AnswerImageKZ { get; set; }
 
         public bool? IsTrue { get; set; }
 

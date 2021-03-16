@@ -16,6 +16,9 @@ namespace WebAPI.Models
         public DbSet<UserRoles> UserRoles { get; set; }
         public DbSet<SchoolboyUsers> SchoolboyUsers { get; set; }
         public DbSet<CloseTest> CloseTest { get; set; }
+        public DbSet<CloseTestAnswer> CloseTestAnswer { get; set; }
+        public DbSet<SortTest> SortTest { get; set; }
+        public DbSet<SortTestAnswer> SortTestAnswer { get; set; }
         #endregion
 
         #region nsi
@@ -28,6 +31,7 @@ namespace WebAPI.Models
         public DbSet<NSIClassName> NSIClassName { get; set; }
         public DbSet<NSISchool> NSISchool { get; set; }
         public DbSet<NSISkillsName> NSISkillsName { get; set; }
+        public DbSet<NSISortTypes> NSISortTypes { get; set; }        
         #endregion
 
         public ContextDB(DbContextOptions<ContextDB> options)

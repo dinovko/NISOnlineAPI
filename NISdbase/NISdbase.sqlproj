@@ -87,6 +87,8 @@
     <Build Include="Tables\dbo\CloseTestAnswer.sql" />
     <Build Include="Tables\dbo\FeedbackTest.sql" />
     <Build Include="Tables\dbo\TestDataTypes.sql" />
+    <Build Include="Tables\dbo\SortTest.sql" />
+    <Build Include="Tables\dbo\SortTestAnswer.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />
@@ -94,6 +96,7 @@
     <None Include="Scripts\AddNSIClassName.sql" />
     <None Include="Scripts\AddNSISchool.sql" />
     <None Include="Scripts\AddNSISkillsName.sql" />
+    <None Include="Scripts\AddNSISortTypes.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="NISdbase.refactorlog" />

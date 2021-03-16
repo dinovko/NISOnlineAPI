@@ -35,6 +35,7 @@ namespace WebAPI.Controllers
             }
         }
 
+        #region CloseTest - закрытый тест
         [HttpPost("saveCloseTest")]
         public async Task<ActionResult<CloseTest>> Post(CloseTest close)
         {
@@ -53,6 +54,43 @@ namespace WebAPI.Controllers
                 return BadRequest(e.Message);
             }
         }
+        #endregion
+
+        #region SortTest - тест Сортировка
+        [HttpGet("dicSortTypes")]
+        public async Task<ActionResult<IEnumerable<NSISortTypes>>> GetDicSortTypes()
+        {
+            try
+            {
+                return await db.NSISortTypes.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpPost("saveCloseTest")]
+        public async Task<ActionResult<SortTest>> Post(SortTest sort)
+        {
+            try
+            {
+                if (sort == null)
+                {
+                    return BadRequest();
+                }
+                db.SortTest.Add(sort);
+                await db.SaveChangesAsync();
+                return Ok(sort);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+        #endregion
+
+
 
 
     }

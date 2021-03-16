@@ -21,4 +21,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="03d8e02b-11b1-4f15-8d63-07cb5e8c3864" ChangeDateTime="03/16/2021 09:45:38">
+    <Property Name="ElementName" Value="[dbo].[SortTest].[QuestionImage]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SortTest]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="QuestionImageKZ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="07caf044-6f7f-43df-b113-99a8cd34df95" ChangeDateTime="03/16/2021 09:47:54">
+    <Property Name="ElementName" Value="[dbo].[CloseTestAnswer].[AnswerImage]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CloseTestAnswer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AnswerImageKZ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94348bfe-7e34-414a-ad4a-8e119bee6ae1" ChangeDateTime="03/16/2021 09:50:56">
+    <Property Name="ElementName" Value="[dbo].[SortTestAnswer].[CloseTestID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SortTestAnswer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SortTestID" />
+  </Operation>
 </Operations>

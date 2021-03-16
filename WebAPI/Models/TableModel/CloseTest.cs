@@ -16,9 +16,17 @@ namespace WebAPI.Models.TableModel
 
         public bool? IsQuestionStr { get; set; }
 
-        public string QuestionImage { get; set; }
+        public string QuestionImageRU { get; set; }
+
+        public string QuestionImageKZ { get; set; }
 
         public bool? IsQuestionImage { get; set; }
+
+        public string QuestionVideoRU { get; set; }
+
+        public string QuestionVideoKZ { get; set; }
+
+        public bool? IsQuestionVideo { get; set; }
 
         public int? SkillsNameID { get; set; }
 
