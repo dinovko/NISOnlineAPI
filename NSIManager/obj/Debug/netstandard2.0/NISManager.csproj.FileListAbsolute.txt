@@ -7,3 +7,12 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NSIManager\obj\Debug\netstandard2
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.csproj.CoreCompileInputs.cache
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.pdb
+C:\Project\NISOnlineAPI\NSIManager\bin\Debug\netstandard2.0\NISManager.deps.json
+C:\Project\NISOnlineAPI\NSIManager\bin\Debug\netstandard2.0\NISManager.dll
+C:\Project\NISOnlineAPI\NSIManager\bin\Debug\netstandard2.0\NISManager.pdb
+C:\Project\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.csprojAssemblyReference.cache
+C:\Project\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.AssemblyInfoInputs.cache
+C:\Project\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.AssemblyInfo.cs
+C:\Project\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.csproj.CoreCompileInputs.cache
+C:\Project\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.dll
+C:\Project\NISOnlineAPI\NSIManager\obj\Debug\netstandard2.0\NISManager.pdb

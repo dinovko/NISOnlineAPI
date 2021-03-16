@@ -346,23 +346,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ravil\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\garayev_r.cep\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
+      "projectUniqueName": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
       "projectName": "NISManager",
-      "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
-      "packagesPath": "C:\\Users\\Ravil\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\obj\\",
+      "projectPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
+      "packagesPath": "C:\\Users\\garayev_r.cep\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ravil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\garayev_r.cep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -409,7 +410,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
