@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {}
+    "D:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {}
   },
   "projects": {
-    "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {
+    "D:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
+        "projectUniqueName": "D:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
         "projectName": "NISOnline",
-        "projectPath": "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
+        "projectPath": "D:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
         "packagesPath": "C:\\Users\\garayev_r.cep\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\NISOnlineAPI\\NISOnline\\obj\\",
+        "outputPath": "D:\\Project\\NISOnlineAPI\\NISOnline\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\garayev_r.cep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

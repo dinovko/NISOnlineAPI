@@ -5923,24 +5923,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\garayev_r.cep\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\garayev_r.cep\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "D:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\garayev_r.cep\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\NISOnlineAPI\\WebAPI\\obj\\",
+      "outputPath": "D:\\Project\\NISOnlineAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\garayev_r.cep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5954,8 +5949,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
-              "projectPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj"
+            "D:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
+              "projectPath": "D:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj"
             }
           }
         }
@@ -6001,7 +5996,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -70,7 +70,7 @@ namespace WebAPI.Controllers
             }
         }
 
-        [HttpPost("saveCloseTest")]
+        [HttpPost("saveSortTest")]
         public async Task<ActionResult<SortTest>> Post(SortTest sort)
         {
             try
