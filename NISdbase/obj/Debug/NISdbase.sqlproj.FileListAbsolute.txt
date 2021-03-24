@@ -16,3 +16,9 @@ C:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
 C:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
 C:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.dll
 C:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.pdb
+D:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.dacpac
+D:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.dll
+D:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
+D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
+D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.dll
+D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.pdb

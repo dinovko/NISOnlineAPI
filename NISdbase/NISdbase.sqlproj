@@ -97,6 +97,7 @@
     <None Include="Scripts\AddNSISchool.sql" />
     <None Include="Scripts\AddNSISkillsName.sql" />
     <None Include="Scripts\AddNSISortTypes.sql" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="NISdbase.refactorlog" />
