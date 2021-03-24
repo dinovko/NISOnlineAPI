@@ -22,19 +22,6 @@ namespace WebAPI.Controllers
             db = context;
         }
 
-        [HttpGet("dicSkills")]
-        public async Task<ActionResult<IEnumerable<NSISkillsName>>> GetClass()
-        {
-            try
-            {
-                return await db.NSISkillsName.ToListAsync();
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
-
         #region CloseTest - закрытый тест
         [HttpPost("saveCloseTest")]
         public async Task<ActionResult<CloseTest>> Post(CloseTest close)
@@ -57,19 +44,6 @@ namespace WebAPI.Controllers
         #endregion
 
         #region SortTest - тест Сортировка
-        [HttpGet("dicSortTypes")]
-        public async Task<ActionResult<IEnumerable<NSISortTypes>>> GetDicSortTypes()
-        {
-            try
-            {
-                return await db.NSISortTypes.ToListAsync();
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
-
         [HttpPost("saveCloseTest")]
         public async Task<ActionResult<SortTest>> Post(SortTest sort)
         {
