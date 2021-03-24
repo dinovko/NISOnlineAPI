@@ -31,7 +31,10 @@ namespace WebAPI.Models
         public DbSet<NSIClassName> NSIClassName { get; set; }
         public DbSet<NSISchool> NSISchool { get; set; }
         public DbSet<NSISkillsName> NSISkillsName { get; set; }
-        public DbSet<NSISortTypes> NSISortTypes { get; set; }        
+        public DbSet<NSISortTypes> NSISortTypes { get; set; }
+        public DbSet<NSIThemeName> NSIThemeName { get; set; }
+        public DbSet<NSISubjectName> NSISubjectName { get; set; }
+        public DbSet<NSISectionName> NSISectionName { get; set; }
         #endregion
 
         public ContextDB(DbContextOptions<ContextDB> options)

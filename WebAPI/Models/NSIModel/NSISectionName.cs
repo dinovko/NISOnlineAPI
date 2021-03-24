@@ -6,7 +6,7 @@ using WebAPI.Models.Base;
 
 namespace WebAPI.Models.NSIModel
 {
-    public class NSIStudySubjectName: BaseDictionary
+    public class NSISectionName : BaseDictionary
     {
     }
 }

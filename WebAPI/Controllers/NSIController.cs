@@ -76,5 +76,49 @@ namespace WebAPI.Controllers
             }
 
         }
+
+        /// <summary>API справочник Предметы</summary>
+        [HttpGet("dicSubjectName")]
+        public async Task<ActionResult<IEnumerable<NSISubjectName>>> GetSubjectName()
+        {
+            try
+            {
+                return await db.NSISubjectName.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        /// <summary>API справочник Разделы</summary>
+        [HttpGet("dicSectionName")]
+        public async Task<ActionResult<IEnumerable<NSISectionName>>> GetSectionName()
+        {
+            try
+            {
+                return await db.NSISectionName.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+        }
+
+        /// <summary>API справочник Разделы</summary>
+        [HttpGet("dicThemeName")]
+        public async Task<ActionResult<IEnumerable<NSIThemeName>>> GetThemeName()
+        {
+            try
+            {
+                return await db.NSIThemeName.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+        }
     }
 }
