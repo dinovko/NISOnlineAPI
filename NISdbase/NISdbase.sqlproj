@@ -90,6 +90,12 @@
     <Build Include="Tables\dbo\SortTest.sql" />
     <Build Include="Tables\dbo\SortTestAnswer.sql" />
     <Build Include="Tables\dbo\InfoMaterialAdd.sql" />
+    <Build Include="Tables\dbo\InterdisciplinaryRelationship.sql" />
+    <Build Include="Tables\dbo\BaseTheme.sql" />
+    <Build Include="Tables\dbo\MaterialData.sql" />
+    <Build Include="Tables\dbo\MaterialDataImage.sql" />
+    <Build Include="Tables\dbo\MaterialDataVideo.sql" />
+    <Build Include="Tables\dbo\MaterialDataGlossary.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />

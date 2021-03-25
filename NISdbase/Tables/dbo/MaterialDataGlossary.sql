@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[MaterialDataGlossary]
+(
+	[ID] INT IDENTITY (1, 1) NOT NULL,	
+    CONSTRAINT [PK_MaterialDataGlossary] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
+)
