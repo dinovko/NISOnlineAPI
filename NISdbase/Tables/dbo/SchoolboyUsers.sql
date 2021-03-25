@@ -11,3 +11,5 @@
     CONSTRAINT [FK_SchoolboyUsers_NSILanguageLearning] FOREIGN KEY ([LanguageLearningID]) REFERENCES [dbo].[NSILanguageLearning] ([ID]),
     CONSTRAINT [FK_SchoolboyUsers_NSISchool] FOREIGN KEY ([SchoolID]) REFERENCES [dbo].[NSISchool] ([ID])
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Школьники(юзеры)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'SchoolboyUsers';

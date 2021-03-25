@@ -7,3 +7,5 @@
     CONSTRAINT [FK_TestDataTypes_TestData] FOREIGN KEY ([TestDataID]) REFERENCES [dbo].[TestData] ([ID]),
     CONSTRAINT [FK_TestDataTypes_NSITestTypes] FOREIGN KEY ([TestTypeID]) REFERENCES [dbo].[NSITestTypes] ([ID])
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Тип теста и данные', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'TestDataTypes';

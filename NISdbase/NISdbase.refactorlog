@@ -42,4 +42,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="SortTestID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a7504f54-b2b9-42f6-8c92-05adb69baf10" ChangeDateTime="03/25/2021 06:41:52">
+    <Property Name="ElementName" Value="[dbo].[NSISectionName].[SubjectNameШВ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NSISectionName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubjectName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="756c2021-a929-40c7-9989-e7c39624ce0f" ChangeDateTime="03/25/2021 06:41:54">
+    <Property Name="ElementName" Value="[dbo].[NSISectionName].[SubjectName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NSISectionName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="I" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a904306a-a0cc-43dc-bd57-b73cb2034834" ChangeDateTime="03/25/2021 06:42:01">
+    <Property Name="ElementName" Value="[dbo].[NSISectionName].[I]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NSISectionName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubjectNameID" />
+  </Operation>
 </Operations>

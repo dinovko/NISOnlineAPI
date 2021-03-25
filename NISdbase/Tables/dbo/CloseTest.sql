@@ -18,3 +18,5 @@
     CONSTRAINT [FK_CloseTest_NSISkillsName] FOREIGN KEY ([SkillsNameID]) REFERENCES [dbo].[NSISkillsName] ([ID]),
     CONSTRAINT [FK_CloseTest_FeedbackTest] FOREIGN KEY ([FeedbackTestID]) REFERENCES [dbo].[FeedbackTest] ([ID])
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Закрытый тест(вопросы)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'CloseTest';

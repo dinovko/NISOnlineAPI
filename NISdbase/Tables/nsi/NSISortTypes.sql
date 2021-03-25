@@ -10,3 +10,5 @@
     [IsDel] BIT NULL, 
     CONSTRAINT [PK_NSISortTypes] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Тип сортировки', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'NSISortTypes';

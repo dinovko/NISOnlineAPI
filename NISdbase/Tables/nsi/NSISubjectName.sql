@@ -10,3 +10,6 @@
     [IsDel] BIT NULL, 
     CONSTRAINT [PK_NSISubjectName] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Предметы', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'NSISubjectName';
+

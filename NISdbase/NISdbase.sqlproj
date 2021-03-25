@@ -89,6 +89,7 @@
     <Build Include="Tables\dbo\TestDataTypes.sql" />
     <Build Include="Tables\dbo\SortTest.sql" />
     <Build Include="Tables\dbo\SortTestAnswer.sql" />
+    <Build Include="Tables\dbo\InfoMaterialAdd.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />
@@ -97,7 +98,6 @@
     <None Include="Scripts\AddNSISchool.sql" />
     <None Include="Scripts\AddNSISkillsName.sql" />
     <None Include="Scripts\AddNSISortTypes.sql" />
-    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="NISdbase.refactorlog" />

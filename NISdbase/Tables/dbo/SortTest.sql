@@ -20,3 +20,5 @@
     CONSTRAINT [FK_SortTest_NSISortTypes] FOREIGN KEY ([SortTypeID]) REFERENCES [dbo].[NSISortTypes] ([ID]),
     CONSTRAINT [FK_SortTest_FeedbackTest] FOREIGN KEY ([FeedbackTestID]) REFERENCES [dbo].[FeedbackTest] ([ID])
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Тест Сортировка(вопросы)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'SortTest';
