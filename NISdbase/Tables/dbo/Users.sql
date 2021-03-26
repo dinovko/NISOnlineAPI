@@ -4,6 +4,7 @@
     [Password] NVARCHAR(50) NULL, 
     [UserTypeID] INT NULL, 
     [PersonID] INT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_Users_NSIUsersTypes] FOREIGN KEY ([UserTypeID]) REFERENCES [dbo].[NSIUsersTypes] ([ID]),
     CONSTRAINT [FK_Users_Person] FOREIGN KEY ([PersonID]) REFERENCES [dbo].[Person] ([ID])

@@ -7,5 +7,6 @@
     [IIN] NCHAR(10) NULL, 
     [Email] NVARCHAR(50) NULL, 
     [Foto] NVARCHAR(MAX) NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_Person] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
 )

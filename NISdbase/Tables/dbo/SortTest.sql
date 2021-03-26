@@ -14,9 +14,12 @@
     [IsQuestionVideo] BIT NULL, 
     [SkillsNameID] INT NULL, 
     [FeedbackTestID] INT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_SortTest] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_SortTest_TestData] FOREIGN KEY ([TestDataTypeID]) REFERENCES [dbo].[TestData] ([ID]),
     CONSTRAINT [FK_SortTest_NSISkillsName] FOREIGN KEY ([SkillsNameID]) REFERENCES [dbo].[NSISkillsName] ([ID]),
     CONSTRAINT [FK_SortTest_NSISortTypes] FOREIGN KEY ([SortTypeID]) REFERENCES [dbo].[NSISortTypes] ([ID]),
     CONSTRAINT [FK_SortTest_FeedbackTest] FOREIGN KEY ([FeedbackTestID]) REFERENCES [dbo].[FeedbackTest] ([ID])
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Тест Сортировка(вопросы)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'SortTest';

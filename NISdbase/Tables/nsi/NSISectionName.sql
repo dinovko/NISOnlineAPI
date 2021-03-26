@@ -8,5 +8,9 @@
     [EndDate]          DATETIME       NULL,
     [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     [IsDel] BIT NULL, 
-    CONSTRAINT [PK_NSISectionName] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
+    [SubjectNameID] INT NULL, 
+    CONSTRAINT [PK_NSISectionName] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
+    CONSTRAINT [FK_NSISectionName_NSISubjectName] FOREIGN KEY ([SubjectNameID]) REFERENCES [dbo].[NSISubjectName] ([ID])
 )
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Раздел', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'NSISectionName';

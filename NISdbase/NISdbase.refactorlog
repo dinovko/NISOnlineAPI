@@ -42,4 +42,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="SortTestID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a7504f54-b2b9-42f6-8c92-05adb69baf10" ChangeDateTime="03/25/2021 06:41:52">
+    <Property Name="ElementName" Value="[dbo].[NSISectionName].[SubjectNameШВ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NSISectionName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubjectName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="756c2021-a929-40c7-9989-e7c39624ce0f" ChangeDateTime="03/25/2021 06:41:54">
+    <Property Name="ElementName" Value="[dbo].[NSISectionName].[SubjectName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NSISectionName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="I" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a904306a-a0cc-43dc-bd57-b73cb2034834" ChangeDateTime="03/25/2021 06:42:01">
+    <Property Name="ElementName" Value="[dbo].[NSISectionName].[I]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[NSISectionName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubjectNameID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="131ad153-0942-4bf7-b7b7-6e2a9b8d0714" ChangeDateTime="03/25/2021 10:45:13">
+    <Property Name="ElementName" Value="[dbo].[InterdisciplinaryRelationship].[InfoMaterial]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[InterdisciplinaryRelationship]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InfoMaterialID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d5505568-c1f3-4c5f-a781-56ce2b12ae8c" ChangeDateTime="03/26/2021 05:29:19">
+    <Property Name="ElementName" Value="[dbo].[MaterialDataVideo].[ImageBacketRU]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialDataVideo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VideoBacketRU" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f601c149-7d55-45a3-a74f-56d4acb9f991" ChangeDateTime="03/26/2021 06:06:16">
+    <Property Name="ElementName" Value="[dbo].[MaterialAddInfoVideo].[MaterialDataID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialAddInfoVideo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaterialAddInfoID" />
+  </Operation>
 </Operations>
