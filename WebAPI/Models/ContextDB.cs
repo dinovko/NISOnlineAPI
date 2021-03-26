@@ -20,7 +20,17 @@ namespace WebAPI.Models
         public DbSet<SortTest> SortTest { get; set; }
         public DbSet<SortTestAnswer> SortTestAnswer { get; set; }
         public DbSet<InfoMaterialAdd> InfoMaterialAdd { get; set; }
-        
+        public DbSet<InterdisciplinaryRelationship> InterdisciplinaryRelationship { get; set; }
+        public DbSet<BaseTheme> BaseTheme { get; set; }
+        public DbSet<MaterialData> MaterialData { get; set; }
+        public DbSet<MaterialDataGlossary> MaterialDataGlossary { get; set; }
+        public DbSet<MaterialDataVideo> MaterialDataVideo { get; set; }
+        public DbSet<MaterialDataImage> MaterialDataImage { get; set; }
+        public DbSet<MaterialDigEduResources> MaterialDigEduResources { get; set; }
+        public DbSet<MaterialInteractive> MaterialInteractive { get; set; }
+        public DbSet<MaterialAdditionalInformation> MaterialAdditionalInformation { get; set; }
+        public DbSet<MaterialAddInfoVideo> MaterialAddInfoVideo { get; set; }
+        public DbSet<MaterialAddInfoImage> MaterialAddInfoImage { get; set; }
         #endregion
 
         #region nsi

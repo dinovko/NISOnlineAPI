@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Models.TableModel
 {
-    public class InfoMaterialAdd : BusinessObjectBase
+    public class InterdisciplinaryRelationship : BusinessObjectBase
     {
+        public int? InfoMaterialID { get; set; }
+
         public int? ClassID { get; set; }
 
         public int? SubjectNameID { get; set; }

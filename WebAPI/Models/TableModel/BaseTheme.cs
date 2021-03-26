@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Models.TableModel
 {
-    public class InfoMaterialAdd : BusinessObjectBase
+    public class BaseTheme : BusinessObjectBase
     {
-        public int? ClassID { get; set; }
+        public int? InfoMaterialID { get; set; }
 
-        public int? SubjectNameID { get; set; }
+        public int? ClassID { get; set; }
 
         public int? UserID { get; set; }
 
