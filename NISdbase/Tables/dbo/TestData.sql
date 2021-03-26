@@ -6,6 +6,7 @@
     [UserID] INT NULL, 
     [SectionNameID] INT NULL, 
     [ThemeNameID] INT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_TestData] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_TestData_NSIClassName] FOREIGN KEY ([ClassID]) REFERENCES [dbo].[NSIClassName] ([ID]),
     CONSTRAINT [FK_TestData_NSISubjectName] FOREIGN KEY ([SubjectNameID]) REFERENCES [dbo].[NSISubjectName] ([ID]),

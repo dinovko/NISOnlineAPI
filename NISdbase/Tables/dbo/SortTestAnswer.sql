@@ -10,6 +10,7 @@
     [KeyNumber] INT NULL,
     [IsAnswerStr] BIT NULL,  
     [IsAnswerImage] BIT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_SortTestAnswer] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_SortTestAnswer_SortTest] FOREIGN KEY ([SortTestID]) REFERENCES [dbo].[SortTest] ([ID])
 )

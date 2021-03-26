@@ -6,6 +6,7 @@
     [ImageFT] NVARCHAR(50) NULL, 
     [VideoFT] NVARCHAR(50) NULL, 
     [LinkFT] NVARCHAR(50) NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_FeedbackTest] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90)
 )
 GO

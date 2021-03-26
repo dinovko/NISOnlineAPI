@@ -70,4 +70,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="InfoMaterialID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="d5505568-c1f3-4c5f-a781-56ce2b12ae8c" ChangeDateTime="03/26/2021 05:29:19">
+    <Property Name="ElementName" Value="[dbo].[MaterialDataVideo].[ImageBacketRU]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialDataVideo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VideoBacketRU" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f601c149-7d55-45a3-a74f-56d4acb9f991" ChangeDateTime="03/26/2021 06:06:16">
+    <Property Name="ElementName" Value="[dbo].[MaterialAddInfoVideo].[MaterialDataID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialAddInfoVideo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaterialAddInfoID" />
+  </Operation>
 </Operations>

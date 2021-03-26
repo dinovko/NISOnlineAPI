@@ -13,6 +13,7 @@
     [IsQuestionVideo] BIT NULL, 
     [SkillsNameID] INT NULL, 
     [FeedbackTestID] INT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_CloseTest] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_CloseTest_TestData] FOREIGN KEY ([TestDataTypeID]) REFERENCES [dbo].[TestData] ([ID]),
     CONSTRAINT [FK_CloseTest_NSISkillsName] FOREIGN KEY ([SkillsNameID]) REFERENCES [dbo].[NSISkillsName] ([ID]),

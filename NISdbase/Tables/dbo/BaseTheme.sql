@@ -6,6 +6,7 @@
     [UserID] INT NULL, 
     [SectionNameID] INT NULL, 
     [ThemeNameID] INT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_BaseTheme] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_BaseTheme_InfoMaterialAdd] FOREIGN KEY ([InfoMaterialID]) REFERENCES [dbo].[InfoMaterialAdd] ([ID]),
     CONSTRAINT [FK_BaseTheme_NSIClassName] FOREIGN KEY ([ClassID]) REFERENCES [dbo].[NSIClassName] ([ID]),

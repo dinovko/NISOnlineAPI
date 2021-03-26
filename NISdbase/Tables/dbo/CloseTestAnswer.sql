@@ -9,6 +9,7 @@
     [IsTrue] BIT NULL, 
     [IsAnswerStr] BIT NULL, 
     [IsAnswerImage] BIT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_CloseTestAnswer] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_CloseTestAnswer_CloseTest] FOREIGN KEY ([CloseTestID]) REFERENCES [dbo].[CloseTest] ([ID])
 )

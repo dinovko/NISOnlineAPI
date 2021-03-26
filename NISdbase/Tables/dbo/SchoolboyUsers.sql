@@ -5,6 +5,7 @@
     [ClassID] INT NULL, 
     [LanguageLearningID] INT NULL, 
     [SchoolID] INT NULL, 
+    [LastModifiedDate] DATETIME       DEFAULT (getdate()) NOT NULL,
     CONSTRAINT [PK_SchoolboyUsers] PRIMARY KEY CLUSTERED ([ID] ASC) WITH (FILLFACTOR = 90),
     CONSTRAINT [FK_SchoolboyUsers_Users] FOREIGN KEY ([UserID]) REFERENCES [dbo].[Users] ([ID]),
     CONSTRAINT [FK_SchoolboyUsers_NSIClassName] FOREIGN KEY ([ClassID]) REFERENCES [dbo].[NSIClassName] ([ID]),

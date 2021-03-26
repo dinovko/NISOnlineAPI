@@ -96,6 +96,9 @@
     <Build Include="Tables\dbo\MaterialDataImage.sql" />
     <Build Include="Tables\dbo\MaterialDataVideo.sql" />
     <Build Include="Tables\dbo\MaterialDataGlossary.sql" />
+    <Build Include="Tables\dbo\MaterialDigEduResources.sql" />
+    <Build Include="Tables\dbo\MaterialInteractive.sql" />
+    <Build Include="Tables\dbo\MaterialAdditionalInformation.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />
