@@ -17,5 +17,9 @@ namespace WebAPI.Models.TableModel
         public string MaterialNameEN { get; set; }
 
         public string Link { get; set; }
+
+        public List<MaterialAddInfoImage> MaterialAddInfoImageList { get; set; }
+
+        public List<MaterialAddInfoVideo> MaterialAddInfoVideoList { get; set; }
     }
 }
