@@ -19,6 +19,8 @@ namespace WebAPI.Models
         public DbSet<CloseTestAnswer> CloseTestAnswer { get; set; }
         public DbSet<SortTest> SortTest { get; set; }
         public DbSet<SortTestAnswer> SortTestAnswer { get; set; }
+        public DbSet<InfoMaterialAdd> InfoMaterialAdd { get; set; }
+        
         #endregion
 
         #region nsi

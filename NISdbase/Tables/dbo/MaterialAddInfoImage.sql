@@ -13,4 +13,4 @@
     CONSTRAINT [FK_MaterialAddInfoImage_MaterialAdditionalInformation] FOREIGN KEY ([MaterialAddInfoID]) REFERENCES [dbo].[MaterialAdditionalInformation] ([ID])
 )
 GO
-EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Материал дополнительная информация картинки', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MaterialAdditionalInformation'
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'Материал дополнительная информация картинки', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MaterialAddInfoImage'
