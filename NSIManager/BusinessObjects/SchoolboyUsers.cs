@@ -1,10 +1,9 @@
 ﻿using NSIManager.BusinessObjects;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace WebAPI.Models.TableModel
+namespace NISManager.BusinessObjects
 {
     public class SchoolboyUsers : BusinessObjectBase
     {

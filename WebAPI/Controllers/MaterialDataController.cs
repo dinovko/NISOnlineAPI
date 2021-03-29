@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
                 {
                     return BadRequest();
                 }
-                //db.InfoMaterialAdd.Add(info);
+                db.InfoMaterialAdd.Add(info);
                 await db.SaveChangesAsync();
                 return Ok(info);
             }

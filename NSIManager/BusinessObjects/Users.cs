@@ -1,11 +1,9 @@
-﻿using NISManager.BusinessObjects;
-using NSIManager.BusinessObjects;
+﻿using NSIManager.BusinessObjects;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace WebAPI.Models
+namespace NISManager.BusinessObjects
 {
     public class Users : BusinessObjectBase
     {
