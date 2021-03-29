@@ -5923,23 +5923,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ravil\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\garayev_r.cep\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Ravil\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\WebAPI\\obj\\",
+      "projectPath": "C:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\garayev_r.cep\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\NISOnlineAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ravil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\garayev_r.cep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5953,8 +5954,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
-              "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NSIManager\\NISManager.csproj"
+            "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
+              "projectPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj"
             }
           }
         }
@@ -6000,7 +6001,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

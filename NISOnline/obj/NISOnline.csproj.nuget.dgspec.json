@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {}
+    "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {}
   },
   "projects": {
-    "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {
+    "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
+        "projectUniqueName": "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
         "projectName": "NISOnline",
-        "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
-        "packagesPath": "C:\\Users\\Ravil\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISOnline\\obj\\",
+        "projectPath": "C:\\Project\\NISOnlineAPI\\NISOnline\\NISOnline.csproj",
+        "packagesPath": "C:\\Users\\garayev_r.cep\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\NISOnlineAPI\\NISOnline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ravil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\garayev_r.cep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
