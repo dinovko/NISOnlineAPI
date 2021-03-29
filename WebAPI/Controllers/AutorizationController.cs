@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using NISLogic.BusinessObjects;
+using NISLogic.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,6 @@ using System.Threading.Tasks;
 using WebAPI.Models;
 using WebAPI.Models.HelperModel;
 using WebAPI.Models.NSIModel;
-using WebAPI.Models.TableModel;
 
 namespace WebAPI.Controllers
 {
@@ -53,34 +54,21 @@ namespace WebAPI.Controllers
             
         }
 
-        //[HttpPost("saveSchoolboyUser")]
-        //public async Task<ActionResult<Person>> Post(Person person)
-        //{
-        //    try
-        //    {
-        //        if (person == null)
-        //        {
-        //            return BadRequest();
-        //        }
-        //        db.Person.Add(person);
-        //        //await db.SaveChangesAsync();
-        //        return Ok(person);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return BadRequest(e.Message);
-        //    }           
-        //}
-
         [HttpPost("saveSchoolboyUser")]
         public Person Post([FromBody] Person person)
         {
-            //var conn = _configuration.GetConnectionString("DefaultConnection");
-            //AutorizationManager auto = new AutorizationManager();
-            //auto.SaveRegistrationPerson(person, conn);
-
-
-            return person;
+            try
+            {
+                var conn = _configuration.GetConnectionString("DefaultConnection");
+                AutorizationManager auto = new AutorizationManager();
+                auto.SaveRegistrationPerson(person, conn);
+                return person;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            
         }
 
         [HttpPost("ADAutorization")]

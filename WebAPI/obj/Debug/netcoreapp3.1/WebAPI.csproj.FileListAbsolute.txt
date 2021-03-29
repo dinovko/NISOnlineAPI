@@ -310,3 +310,13 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\obj\Debug\netcoreapp3.1\We
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\NISLogic.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\NISLogic.pdb
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\Dapper.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
