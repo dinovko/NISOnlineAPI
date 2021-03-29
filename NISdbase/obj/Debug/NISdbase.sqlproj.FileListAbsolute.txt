@@ -21,4 +21,3 @@ D:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
 D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
 D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.dll
 D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.pdb
-F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache

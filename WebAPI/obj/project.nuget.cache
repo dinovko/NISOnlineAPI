@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "JytR5RbeK8TyYbeXVudwg/L6uYH5e1qTgjuVLwHrjT6A5pF28JlSp3LlooimZLsJS8icIP6N6o7SSNkMY2rmlA==",
-  "success": false,
+  "dgSpecHash": "xfJX/mX6WgFQeCL64LaHaACPJ5GpW0KhMp/C08Nr5sa6TSPWRwiZctZeKGUaxMLIXQMprSWXDbk3z/3y6UBqCg==",
+  "success": true,
   "projectFilePath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ravil\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -106,15 +106,5 @@
     "C:\\Users\\Ravil\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Ravil\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Не удалось найти сведения о проекте для \"F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj\". Если вы используете Visual Studio, причина может заключаться в том, что проект выгружен или не является частью текущего решения. В этом случае выполните восстановление из командной строки. В противном случае причина может быть связана с тем, что файл проекта является недопустимым или отсутствуют целевые объекты, необходимые для восстановления.",
-      "libraryId": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

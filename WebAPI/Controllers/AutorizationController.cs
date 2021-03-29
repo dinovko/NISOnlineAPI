@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using NISManager.BusinessObjects;
-using NSIManager.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +9,7 @@ using System.Threading.Tasks;
 using WebAPI.Models;
 using WebAPI.Models.HelperModel;
 using WebAPI.Models.NSIModel;
+using WebAPI.Models.TableModel;
 
 namespace WebAPI.Controllers
 {
@@ -76,8 +75,8 @@ namespace WebAPI.Controllers
         [HttpPost("saveSchoolboyUser")]
         public Person Post([FromBody] Person person)
         {
-            var conn = _configuration.GetConnectionString("DefaultConnection");
-            AutorizationManager auto = new AutorizationManager();
+            //var conn = _configuration.GetConnectionString("DefaultConnection");
+            //AutorizationManager auto = new AutorizationManager();
             //auto.SaveRegistrationPerson(person, conn);
 
 

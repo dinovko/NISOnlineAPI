@@ -1,9 +1,8 @@
-﻿using NISManager.BusinessObjects;
-using NSIManager.BusinessObjects;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAPI.Models.Base;
+using WebAPI.Models.TableModel;
 
 namespace WebAPI.Models
 {

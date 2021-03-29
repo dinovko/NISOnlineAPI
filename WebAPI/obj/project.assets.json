@@ -5861,7 +5861,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.2",
       "Microsoft.VisualStudio.Shell.Interop.11.0 >= 16.7.30328.74",
       "System.Configuration.ConfigurationManager >= 5.0.0"
@@ -5897,11 +5896,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj": {
-              "projectPath": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5948,16 +5943,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Не удалось найти сведения о проекте для \"F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj\". Если вы используете Visual Studio, причина может заключаться в том, что проект выгружен или не является частью текущего решения. В этом случае выполните восстановление из командной строки. В противном случае причина может быть связана с тем, что файл проекта является недопустимым или отсутствуют целевые объекты, необходимые для восстановления.",
-      "libraryId": "F:\\Project\\NISOnline\\NISOnlineGit\\NISOnlineAPI\\NISManager\\NISManager.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

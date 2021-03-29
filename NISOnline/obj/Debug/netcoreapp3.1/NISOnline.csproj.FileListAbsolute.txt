@@ -161,7 +161,6 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISOnline\obj\Debug\netcoreapp3.1
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISOnline\obj\Debug\netcoreapp3.1\NISOnline.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISOnline\obj\Debug\netcoreapp3.1\NISOnline.pdb
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISOnline\obj\Debug\netcoreapp3.1\NISOnline.genruntimeconfig.cache
-F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISOnline\obj\Debug\netcoreapp3.1\NISOnline.csprojAssemblyReference.cache
 C:\Project\NISOnlineAPI\NISOnline\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Project\NISOnlineAPI\NISOnline\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Project\NISOnlineAPI\NISOnline\bin\Debug\netcoreapp3.1\NISOnline.exe
