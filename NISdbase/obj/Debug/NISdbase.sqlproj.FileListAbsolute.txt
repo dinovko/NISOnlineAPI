@@ -9,7 +9,6 @@ F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.dll
 F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.pdb
-F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
 C:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.dacpac
 C:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.dll
 C:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
@@ -22,3 +21,4 @@ D:\Project\NISOnlineAPI\NISdbase\bin\Debug\NISdbase.pdb
 D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
 D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.dll
 D:\Project\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.pdb
+F:\Project\NISOnline\NISOnlineGit\NISOnlineAPI\NISdbase\obj\Debug\NISdbase.sqlprojAssemblyReference.cache
