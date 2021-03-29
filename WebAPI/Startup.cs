@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -30,6 +32,25 @@ namespace WebAPI
 
             services.AddCors();
             services.AddControllers();
+
+            #region максимальный объем загружаемых данных
+            services.Configure<IISServerOptions>(opt =>
+            {
+                opt.MaxRequestBodySize = int.MaxValue;
+            });
+
+            services.Configure<KestrelServerOptions>(opt =>
+            {
+                opt.Limits.MaxRequestBodySize = int.MaxValue;
+            });
+
+            services.Configure<FormOptions>(opt =>
+            {
+                opt.ValueLengthLimit = int.MaxValue;
+                opt.MultipartBodyLengthLimit = int.MaxValue;
+                opt.MultipartHeadersLengthLimit = int.MaxValue;
+            });
+            #endregion
         }
 
         public void Configure(IApplicationBuilder app)
