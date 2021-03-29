@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using NISLogic.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,30 +15,30 @@ namespace WebAPI.Controllers
     [ApiController]
     public class MaterialDataController : ControllerBase
     {
+        private readonly IConfiguration _configuration;
         ContextDB db;
 
-        public MaterialDataController(ContextDB context)
+        public MaterialDataController(ContextDB context, IConfiguration configuration)
         {
             db = context;
+            _configuration = configuration;
         }
 
         [HttpPost("saveMaterialData")]
-        public async Task<ActionResult<InfoMaterialAdd>> Post(InfoMaterialAdd info)
+        public InfoMaterialAdd Post([FromBody] InfoMaterialAdd person)
         {
             try
             {
-                if (info == null)
-                {
-                    return BadRequest();
-                }
-                db.InfoMaterialAdd.Add(info);
-                await db.SaveChangesAsync();
-                return Ok(info);
+                var conn = _configuration.GetConnectionString("DefaultConnection");
+                MaterialDataManager mat = new MaterialDataManager();
+                //mat.SaveRegistrationPerson(person, conn);
+                return person;
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                return BadRequest(e.Message);
+                throw;
             }
+
         }
     }
 }
