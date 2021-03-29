@@ -4,14 +4,14 @@
     "C:\\Project\\NISOnlineAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
+    "C:\\Project\\NISOnlineAPI\\NISLogic\\NISLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
-        "projectName": "NISManager",
-        "projectPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj",
+        "projectUniqueName": "C:\\Project\\NISOnlineAPI\\NISLogic\\NISLogic.csproj",
+        "projectName": "NISLogic",
+        "projectPath": "C:\\Project\\NISOnlineAPI\\NISLogic\\NISLogic.csproj",
         "packagesPath": "C:\\Users\\garayev_r.cep\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\obj\\",
+        "outputPath": "C:\\Project\\NISOnlineAPI\\NISLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,11 +48,19 @@
               "target": "Package",
               "version": "[2.0.78, )"
             },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
@@ -97,8 +105,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj": {
-                "projectPath": "C:\\Project\\NISOnlineAPI\\NSIManager\\NISManager.csproj"
+              "C:\\Project\\NISOnlineAPI\\NISLogic\\NISLogic.csproj": {
+                "projectPath": "C:\\Project\\NISOnlineAPI\\NISLogic\\NISLogic.csproj"
               }
             }
           }

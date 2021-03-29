@@ -1,8 +1,8 @@
-﻿using NSIManager.BusinessObjects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAPI.Models.Base;
 
 namespace WebAPI.Models.TableModel
 {
@@ -17,5 +17,9 @@ namespace WebAPI.Models.TableModel
         public string MaterialNameEN { get; set; }
 
         public string Link { get; set; }
+
+        public List<MaterialAddInfoImage> MaterialAddInfoImageList { get; set; }
+
+        public List<MaterialAddInfoVideo> MaterialAddInfoVideoList { get; set; }
     }
 }

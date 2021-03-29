@@ -99,6 +99,8 @@
     <Build Include="Tables\dbo\MaterialDigEduResources.sql" />
     <Build Include="Tables\dbo\MaterialInteractive.sql" />
     <Build Include="Tables\dbo\MaterialAdditionalInformation.sql" />
+    <Build Include="Tables\dbo\MaterialAddInfoVideo_1.sql" />
+    <Build Include="Tables\dbo\MaterialAddInfoImage_1.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\AddNSITestTypes.sql" />

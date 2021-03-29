@@ -84,4 +84,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="MaterialAddInfoID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="440dcce2-fe0e-425b-9762-5fb2751dccdd" ChangeDateTime="03/29/2021 14:28:56">
+    <Property Name="ElementName" Value="[dbo].[MaterialAddInfoImage].[MaterialDataID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialAddInfoImage]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaterialAddInfoID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ff0c51fb-987f-4808-9111-ddea07fa7832" ChangeDateTime="03/29/2021 14:30:02">
+    <Property Name="ElementName" Value="[dbo].[MaterialAddInfoVideo].[MaterialDataID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialAddInfoVideo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaterialAddInfoID" />
+  </Operation>
 </Operations>
