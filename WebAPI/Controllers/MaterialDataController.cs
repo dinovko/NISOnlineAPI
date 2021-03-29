@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using NISLogic.BusinessObjects;
 using NISLogic.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPI.Models;
-using WebAPI.Models.TableModel;
 
 namespace WebAPI.Controllers
 {
@@ -25,14 +25,14 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("saveMaterialData")]
-        public InfoMaterialAdd Post([FromBody] InfoMaterialAdd person)
+        public InfoMaterialAdd Post([FromBody] InfoMaterialAdd material)
         {
             try
             {
                 var conn = _configuration.GetConnectionString("DefaultConnection");
                 MaterialDataManager mat = new MaterialDataManager();
-                //mat.SaveRegistrationPerson(person, conn);
-                return person;
+                mat.SaveMaterialData(material, conn);
+                return material;
             }
             catch (Exception)
             {
